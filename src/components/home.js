@@ -14,12 +14,12 @@ function Home() {
       {/* Slideshow */}
       <Carousel showThumbs={true} className="mb-4">
         <div>
-          <img alt="Event 1" src="my-app/02.jpg" />
+          <img alt="Event 1" src="components/02.jpg" />
         </div>
         <div>
-          <img alt="Event 2" src="my-app/ziggo.jpg" />
+          <img alt="Event 2" src="components/ziggo.jpg" />
         </div>
-        {/* Add more slides as needed */}
+        
       </Carousel>
 
       {/* Greeting Cards */}

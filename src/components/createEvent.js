@@ -36,7 +36,7 @@ function CreateEvent() {
           <input
             type="text"
             style={styles.input}
-            id="event" // <-- Ensure this id matches the 'for' attribute of the label
+            id="event" 
             value={event}
             onChange={(e) => { setEvent(e.target.value) }}
           />
@@ -48,7 +48,7 @@ function CreateEvent() {
             onChange={(newDate) => setDate(newDate)}
             dateFormat="yyyy-MM-dd"
             style={styles.input}
-            id="date" // <-- Ensure this id matches the 'for' attribute of the label
+            id="date" 
           />
         </div>
         <div>
